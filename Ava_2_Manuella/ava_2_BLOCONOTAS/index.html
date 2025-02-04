@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Bloco de Notas</h1>
+        <button id="novaNotaBtn">Nova Nota</button>
+        <div id="conteudoNota" class="nota-conteudo" style="display: none;">
+            <textarea id="campoNota" placeholder="Digite aqui..."></textarea>
+            <button id="salvarBtn">Salvar</button>
+            
+        </div>
+        <ul id="listaNotas"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
