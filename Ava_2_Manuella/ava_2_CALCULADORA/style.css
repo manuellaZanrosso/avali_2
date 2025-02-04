@@ -9,13 +9,13 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #FFC0CB;
 }
 .calculadora{
     width: 300px;
-    background-color: #464646;
+    background-color: #8B0000;
     border-radius: 10px;
-    box-shadow: 0px 4px 4px #00000040;
+    box-shadow: 0px 4px 4px #F08080;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
@@ -51,12 +51,12 @@ body{
 }
 
 .bg-gray{
-    background-color: #585858;
+    background-color: #8B0000;
 }
 
 .bg-light-gray {
 
-background-color: #747474;
+background-color: #CD5C5C;
 }
 
 button:active{
@@ -64,5 +64,5 @@ button:active{
 }
 
 .bg-orange{
-    background-color: #f2a43b;
+    background-color: #DB7093;
 } 
